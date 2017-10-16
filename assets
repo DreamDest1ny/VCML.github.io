@@ -1,0 +1,1 @@
+![useful image]({{ site.url }}/assets/image.png)
