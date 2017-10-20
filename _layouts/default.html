@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <style>
+    #colorblue {color: blue;}
+    #colorred {color: red;}
+    #colorgreen {color: green;}
+    #colororange {color: orange;}
+    </style>
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -32,8 +38,8 @@
     <div class="wrapper">
 
       <section>
-        <div id="title">
-          <h1>{{ site.title | "VCML Beta Testing!" }}</h1>
+        <div id="VCML Beta Testing!">
+          <h1>{{ site.title | default: "VCML Beta Testing!" }}</h1>
           <p>{{ site.description | default: "Brought to you by the VCML team!" }}</p>
           <hr>
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
