@@ -33,8 +33,7 @@
 
       <section>
         <div id="title">
-          <!--<h1>{{ site.title | default: "VCML Beta Testing!" }}</h1> -->
-          <h>{{ site.title | default: "VCML Beta Testing!" }}</h>
+          <h1>{{ site.title | "VCML Beta Testing!" }}</h1>
           <p>{{ site.description | default: "Brought to you by the VCML team!" }}</p>
           <hr>
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
